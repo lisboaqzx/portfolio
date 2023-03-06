@@ -1,0 +1,147 @@
+:root {
+  --black: black;
+  --white: white;
+  --gray: #E5E5E5;
+  --gray2: #333;
+  --gray3: #444;
+  --green: #03ff9a;
+  
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box ;
+}
+
+footer {
+  color: black;
+  background: var(--green);
+  padding: 25px;
+  text-align: center;
+  border-top: 3px solid var(--black);
+}
+
+.btn {
+  color: var(--green);
+  font-weight: bold;
+  background: transparent;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 28px;
+  color: var(--green);
+  font-weight: bold;
+}
+
+h1:hover {
+  animation: name 1s ease;
+}
+
+h2 {
+  color: var(--white);
+  font-size: 12px;
+}
+
+h3 {
+  margin: 10px;
+  font-size: 24px;
+}
+
+.link {
+  background: var(--white);
+  display: flex;
+  justify-content: space-around;
+  max-width: 200px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.header {
+  background-color: var(--gray2);
+  padding: 5px;
+  max-height: 60px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--green);
+}
+
+.oi {
+  background: var(--gray3);
+  margin: 0;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links {
+  background: var(--green);
+  padding: 30px;
+  margin: 25px;
+  display: inline-block;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.bio {
+  background: var(--gray2);
+  padding: 3em;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  background: var(--gray);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.certificado {
+  background: var(--gray3);
+  margin: 0;
+  padding: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#logo {
+  width: 25px;
+  margin-right: 25px;
+}
+
+#eu {
+  width: 120px;
+  height: 120px;
+  border-left: 3px solid var(--green);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+#ctf {
+  max-width: 85%;
+}
+  
+
+@media screen and (max-width: 768px){
+  .bio{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+  
+  .oi {
+    display: flex;
+    flex-direction: column;
+  }
+}
+  
